@@ -1,0 +1,18 @@
+h1{
+    border-style: solid;
+    border-width: 3px;
+    border-color: blueviolet;
+    color: rgb(255, 94, 0);
+    text-shadow: 2px 2px 2px rgb(251, 255, 0),-2px -2px 2px #ffbb00; 
+    
+    /*text-shadow or box-shadow: horizontal offset   vertical offset   blurr amount   color of shadow ,
+                                 HOfor2ndshadow      VOfor2ndshadow    BAfor2ndshadow   COSfor2ndshadow,  and so on*/
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    border-style: none;
+    border-color: #ffbb00;
+    box-shadow: 4px 4px 2px yellowgreen;
+}
