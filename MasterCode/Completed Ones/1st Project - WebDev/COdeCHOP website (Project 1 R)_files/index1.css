@@ -1,6 +1,7 @@
 body{
   font-family: sans-serif;
   background-color: beige;
+  margin:0px; 
 }
 
 .layout {
@@ -14,6 +15,7 @@ body{
 
   text-align: center;
   font-size: 18px;  
+  margin:18px;
 }
 
 .layout1{
@@ -26,6 +28,7 @@ body{
     gap: 8px;
 
     text-align: center;
+    margin:18px;
 }
 .alumn1{
   padding: 15px;
