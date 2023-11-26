@@ -1,0 +1,14 @@
+#firstContainer{
+    background-color: rgb(228,206,172);
+    height: 2050px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.col > img{
+    width: 300px; 
+    height: 300px;
+    border-radius: 10%;
+}
