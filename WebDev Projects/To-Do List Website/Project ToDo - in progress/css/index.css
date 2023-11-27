@@ -1,0 +1,18 @@
+#firstContainer{
+    background-color:  rgb(255,182,108);
+    height: 2000px;
+}
+.row{
+    border:2px solid red;
+}
+[class*="col-"]{
+    border: 2px solid blue;
+}
+.subrow{
+    margin-left: 50px; 
+    margin-top: 40px; 
+    font-size: 26px; 
+    color: brown; 
+    font-weight: 500;
+    text-decoration: underline; 
+}
