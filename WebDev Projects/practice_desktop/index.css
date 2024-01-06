@@ -1,0 +1,85 @@
+
+html{
+    font-size: 15px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: whitesmoke;
+}
+header > nav, header ul{
+    display: flex;
+}
+header label{
+    line-height: 13vh;
+    font-size: 4.25rem;
+    font-weight: bolder;
+    width: 30vw;
+    margin-left: 6%;
+}
+header li{
+    font-weight: 100;
+    font-size: 1.75rem;
+    line-height: 13vh;
+}
+header ul{
+    width: 70vw;
+    margin-left: auto;
+    justify-content: space-evenly;
+}
+header{
+    background-color: rgba(0, 4, 17, 0.93);
+    height: 13vh;
+    width: 100%;
+}
+main{
+    width: 100%;
+    height: 87vh;
+    background-image: linear-gradient(rgba(0, 6, 27, 0.7),rgba(0, 6, 27, 0.7)),url("train\ anime\ -\ Copy.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#hero_title,#catch_it{
+    font-size: 3rem;
+}
+#hero_title{
+    font-weight: 900;
+    padding: 5% 0 0 5%; /*padding: top right bottom left;*/
+}
+#catch_it{
+    font-weight: 500;
+    padding: 1% 0 0 5%;
+}
+#quote1,#quote2{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+#quote1{
+    margin-right: 5%;
+}
+#quote2{
+    margin-right: 8.7%;
+    text-align: end;
+}
+#footer_note{
+    font-weight: lighter;
+    opacity: 80%;
+    font-size: 3.4rem;
+    font-style: italic;
+    padding: 6.5% 0 0 6%;
+}
+#flexbox{
+    margin-top: 4%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.flex_item{
+    margin-left: 14%;
+}
